@@ -4,8 +4,8 @@ public class Humain {
     private String nom;
     private String boissonFavorite;
     private int argent;
-    private int nbConnaissance;
-    private Humain[] connaissances;
+    protected int nbConnaissance;
+    protected Humain[] connaissances;
     private static int nbConnaissanceMax = 30;
 
     public Humain(String nom, String boissonFavorite, int argent) {
