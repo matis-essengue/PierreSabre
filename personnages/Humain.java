@@ -6,7 +6,7 @@ public class Humain {
     private int argent;
     private int nbConnaissance;
     private Humain[] connaissances;
-    private int nbConnaissanceMax = 30;
+    private static int nbConnaissanceMax = 30;
 
     public Humain(String nom, String boissonFavorite, int argent) {
         this.nom = nom;
